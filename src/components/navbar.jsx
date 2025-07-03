@@ -7,7 +7,7 @@ const Navbar = () => {
   const [search, setSearch] = useState('');
 
   return (
-    <nav className="d-none d-lg-flex m-0 navbar navbar-expand-lg navbar-dark py-1 bg-dark fixed-top" style={{ top: '137px', zIndex: 1040 }}>
+    <nav className="d-none d-lg-flex m-0 navbar navbar-expand-lg navbar-dark py-1 bg-dark fixed-top" style={{ top: '128px', zIndex: 1040 }}>
       <div className="container">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" >
           <span className="navbar-toggler-icon"></span>

@@ -30,7 +30,7 @@ main.responsive-main {
 
 /* s-gradient.css */
 .gradient-container {
-  background: linear-gradient(50deg, #1a1919 50%, #ffffff 70%);
+  background: linear-gradient(50deg, #1a1919 60%, #ffffff 10%);
   position: relative;
   overflow: hidden;
 }
@@ -39,23 +39,26 @@ main.responsive-main {
   position: absolute;
   top: -50%;
   left: -10%;
-  width: 60%;
+  width: 80%;
   height: 200%;
   background: linear-gradient(10deg, rgba(255, 255, 255, 1) 0%, rgba(243, 245, 245,1) 70%);
   border-radius: 50%;
-  transform: rotate(345deg);
+  transform: rotate(0deg);
   z-index: 0;
 }
 
 .gradient-s-shape-bottom {
   position: absolute;
-  bottom: -50%;
+  bottom: -60%;
   right: -10%;
-  width: 50%;
-  height: 200%;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 10%, rgba(239, 2, 2, 0.7) 70%);
+  width: 55%;
+  height: 180%;
+  background-image: url('/public/download.png'); 
+  background-size: cover;
+  background-position:center;
   border-radius: 50%;
-  transform: rotate(355deg);
+  opacity: 0.5;
+  transform: rotate(350deg);
   z-index: 0;
 }
 
@@ -63,10 +66,6 @@ main.responsive-main {
   position: relative;
   z-index: 1;
 }
-
-
-
-
 
 .offcanvas-custom {
   transition: margin-right 0.3s ease-in-out;
@@ -123,6 +122,41 @@ main.responsive-main {
   width: 100%;
   object-position: top;
 }
+.blur-carousel {
+  filter: blur(12px);
+  height: 85vh;
+  object-fit: cover;
+}
+.front-carousel {
+  width: 75%;
+  height: 80%;
+  z-index: 1000;
+}
+.nav-link:hover,
+.nav-link:focus,
+.btn-link:hover,
+.btn-link:focus {
+  background-color: rgba(8, 8, 8, 0.1); /* light semi-transparent overlay */
+  color: #fcf6f6; /* ensures text stays visible on dark background */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+.offcanvas-custom {
+  background-color: rgb(250, 246, 246);
+  color: rgb(1, 1, 1);
+  backdrop-filter: blur(6px);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+.offcanvas .nav-link:hover,
+.offcanvas .nav-link:focus,
+.offcanvas .btn-link:hover,
+.offcanvas .btn-link:focus {
+  background-color: rgba(6, 5, 5, 1);
+  color: white;
+}
+
 
 .custom-shadow {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* stronger shadow */

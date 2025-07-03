@@ -2,12 +2,12 @@ import React from 'react';
 
 const MissionVisionCore = () => {
   return (
-    <div className="container my-5">
+    <div className="container-lg px-4 my-5">
         <h5 className='text-center fw-bold py-3 mb-4' style={{ color: '#B30000' }}>OUR GUIDING PRINCIPLES</h5>
       <div className="row text-center">
         <div className="col-md-4 mb-4">
           <div className="card custom-shadow h-100 border-0">
-            <div className="card-body">
+            <div className="card-body px-4">
               <h5 className="card-title text-dark text-start fw-bold px-3"><i className="bi bi-bullseye me-2 fs-4 py-0"  style={{ color: '#DCD508' }}></i>Mission</h5>
               <p className="card-text text-justify">
                 To promote professionalism, independence, and integrity of judges and magistrates in Tanzania through advocacy, collaboration, and capacity building.
@@ -17,7 +17,7 @@ const MissionVisionCore = () => {
         </div>
         <div className="col-md-4 mb-4">
           <div className="card custom-shadow h-100 border-0">
-            <div className="card-body">
+            <div className="card-body px-4">
               <h5 className="card-title text-dark text-start fw-bold px-3"><i className="bi bi-eye-fill me-2 fs-4 py-0"  style={{ color: '#DCD508' }}></i>Vision</h5>
               <p className="card-text text-justify">
                 A just and accountable judiciary that upholds the rule of law, human rights, and justice for all Tanzanians.
@@ -28,7 +28,7 @@ const MissionVisionCore = () => {
 
         <div className="col-md-4 mb-4">
           <div className="card custom-shadow h-100 border-0">
-            <div className="card-body">
+            <div className="card-body px-4">
             <h5 className="card-title text-dark text-start fw-bold px-3"><i className="bi bi-gem me-2 fs-4 py-0 "  style={{ color: '#DCD508' }}></i>Core Values</h5>
             <ul className="list-unstyled text-start mb-0">
                 <li><i className="bi bi-check2-circle text-primary me-2"></i>Integrity</li>

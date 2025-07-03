@@ -75,7 +75,7 @@ const Newslist = () => {
         <hr style={{ width: '80px', borderTop: '3px solid #B30000', opacity: '1' }} />
         <div className="row">
           {currentItems.map((news, index) => (
-            <div className="col-md-3" key={index}>
+            <div className="col-lg-3 col-6" key={index}>
               <div className="card mb-4 border-0 card-3d-shadow">
                 <img src={news.image} className="card-img-top" alt={news.title} style={{ height: '150px', objectFit: 'cover' }} />
                 <div className="card-body px-3">

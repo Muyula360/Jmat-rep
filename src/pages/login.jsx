@@ -16,7 +16,7 @@ const Login = () => {
     </div>
         <div className="container my-5">
       <div className="row justify-content-center align-items-center">
-        <div className="col-md-6 col-8 col-lg-4">
+        <div className="col-md-8 col-10 col-lg-4">
           <div className="card border-0  custom-shadow">           
             <div className="card-body p-4">
             <div className="text-center pb-4">

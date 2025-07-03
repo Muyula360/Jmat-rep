@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="container-fluid bg-black text-white py-1">
       <div className="container">
         <div className="row text-center">
-            <div className="col-md-3 col-6 my-3">
+            <div className="col-lg-3 col-6 my-3">
             <div className="pt-3 pb-1 px-3 text-start">
                 <h6 className='fw-bold'>ADDRESS</h6>
                 <h6 className="py-2 lh-base mb-0">
@@ -14,13 +14,13 @@ const Footer = () => {
                     P.O. Box 2301,<br />
                     Dodoma - Tanzania
                 </h6>
-                <p className='ps-4 pt-2' style={{fontSize:'14px'}}>
+                <small className='ps-4 pt-2' style={{fontSize:'12px'}}>
                 <i className="fa-solid fa-phone"></i> 255(0) 22-245-345-1 <br />
-                <i className="fa-solid fa-envelope"></i> info.service@jmat.or.tz
-                </p>
+                <i className="fa-solid fa-envelope ms-4"></i> jmat@judiciary.or.tz
+                </small>
             </div>
             </div>
-                <div className="col-md-3 col-6 my-3">
+                <div className="col-lg-3 col-6 my-3">
             <div className="pt-3 pb-1 px-3 text-start">
                 <h6 className='fw-bold'>QUICK LINKS</h6>
                 <h6 className="py-2 lh-base mb-0">
@@ -33,7 +33,7 @@ const Footer = () => {
                 
             </div>
             </div>
-                <div className="col-md-3 col-6 my-3">
+                <div className="col-lg-3 col-6 my-3">
                     <div className="pt-3 pb-4 px-3 text-start text-white">
                         <h6 className="fw-bold mb-2">SUBSCRIBE</h6>
                         <p className="mb-3 pt-2" style={{ fontSize: '14px', lineHeight: '1.6' }}>Don't miss news, tips, and announcements in your inbox.</p>
@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
                  </div>
             </div>
-            <div className="col-md-3 col-6 mt-1">
+            <div className="col-lg-3 col-6 mt-1">
                 <div className="pt-3 pb-1 px-3 text-center">
                     <img src="/logo1.png" alt="" width="150px" height="150px" /> <br />
                     <button className='btn btn-light'>BECOME A MEMBER</button>

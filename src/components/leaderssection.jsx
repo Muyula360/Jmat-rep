@@ -17,23 +17,18 @@ const LeadersSection = () => {
         </div>
       </div>
 
-      <div className="container px-3 px-sm-0">
-        <div className="row align-items-center text-center my-0 gx-3 gx-sm-1">
-          <div className="col-4 col-md-3 d-flex flex-column align-items-center px-1">
-            <img
-              src={chair}
-              alt="Chairman"
-              className="img-fluid rounded-circle custom-shadow"
-              style={{ height: '210px',width:'200px', maxWidth: '100%', objectFit: 'cover' }}
-            />
+      <div className="container-lg px-2">
+        <div className="row align-items-center text-center my-0 gx-lg-3 gx-1">
+          <div className="col-12 col-md-4 col-lg-3 mb-3 d-flex flex-column align-items-center px-0">
+            <img src={chair} alt="Chairman" className="img-fluid rounded-circle custom-shadow" style={{ height: '210px',width:'200px', maxWidth: '100%', objectFit: 'cover' }}/>
             <div className="mt-2 text-center">
               <div className="fw-bold">CHAIRMAN</div>
               <div>Mohamed Mkapa</div>
             </div>
           </div>
 
-          <div className="col-lg-6 col-8 col-md-9 d-flex align-items-center justify-content-center px-1">
-            <div className=" text-start px-2">
+          <div className="col-12 col-md-8 col-lg-6 d-flex align-items-center justify-content-center">
+            <div className=" text-start px-lg-2">
               <h5 className='text-center'>WELCOME TO JMAT</h5>
               <p className="mb-0 text-lg-justify text-center">
                 The Judges and Magistrates Association of Tanzania (JMAT) is an organization that advocates for the interests
