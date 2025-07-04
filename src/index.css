@@ -57,7 +57,7 @@ main.responsive-main {
   background-size: cover;
   background-position:center;
   border-radius: 50%;
-  opacity: 0.5;
+  opacity: 0.3;
   transform: rotate(350deg);
   z-index: 0;
 }
@@ -123,15 +123,61 @@ main.responsive-main {
   object-position: top;
 }
 .blur-carousel {
-  filter: blur(12px);
+  filter: blur(3px);
   height: 85vh;
-  object-fit: cover;
+  transition: all 1s ease-in-out;
 }
 .front-carousel {
-  width: 75%;
-  height: 80%;
-  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 90%;
+  padding: 10px;
+  margin-top: 30px;
+  z-index: 10;
+  overflow: hidden;
+  position: absolute;
 }
+/* .front-carousel {
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  padding: 10px;
+  z-index: 10;
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+} */
+
+/* .blur-carousel {
+  filter: blur(2px);
+  opacity: 0.6;
+  transition: all 0.6s ease-in-out;
+} */
+
+/* Animated slide and shrink effect */
+.shrink-in {
+  animation: slideToCorner 0.6s ease forwards;
+}
+
+@keyframes slideToCorner {
+  0% {
+    transform: scale(1.2) translateY(-10px);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1) translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95) translateY(0px);
+    opacity: 1;
+  }
+}
+
+
 .nav-link:hover,
 .nav-link:focus,
 .btn-link:hover,
@@ -165,9 +211,9 @@ main.responsive-main {
 
 .card-top-line {
   height: 10px;
-  background-color: #ed1e24;
+  background-color:black;
   width: 75%;
-  margin: 0 auto;
+  /* margin-left: 2px; */
 }
 .links{
    background-color: #ed1e24;  
@@ -221,7 +267,7 @@ main.responsive-main {
 }
 
 .event-line{
-  height: 6px;
+  height: 4px;
   background-color: #ed1e24;
   opacity: 1;
 }
@@ -233,7 +279,6 @@ main.responsive-main {
 }
 .arrows-icon{
     color:#ed1e24 ;
-    transform: scaleX(2.2);
     display: inline-block;
 }
 .custom-hover-card:hover {

@@ -55,10 +55,10 @@ const EventsGalleryCarousel = () => {
             </div>
             <div className="d-flex justify-content-between mt-auto pb-5 px-5">
               <span onClick={goToPrev}>
-                <i className="bi bi-arrow-left fs-3 fw-bold arrows-icon cursor-pointer"></i>
+                <i className="bi bi-arrow-left fs-1 fw-bold arrows-icon cursor-pointer"></i>
               </span>
               <span onClick={goToNext}>
-                <i className="bi bi-arrow-right fs-3 fw-bold arrows-icon cursor-pointer"></i>
+                <i className="bi bi-arrow-right fs-1 fw-bold arrows-icon cursor-pointer"></i>
               </span>
             </div>
           </div>

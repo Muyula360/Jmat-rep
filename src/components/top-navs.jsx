@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="fixed-top bg-white" style={{ zIndex: 1050 }}>
-    <div className="d-flex justify-content-end bg-primary">
+    <div className="d-flex justify-content-end bg-danger">
       <small className="text-end text-white mb-0 px-4 py-1">
         Toll-free 0808-123-242 | <i>jmat@judiciary.go.tz</i>
       </small>

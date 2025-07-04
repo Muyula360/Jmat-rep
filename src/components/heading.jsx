@@ -18,17 +18,15 @@ const Heading = () => {
           <div className="d-none d-lg-flex align-items-center me-2">
             <ul className="list-inline mb-0">
               <li className="list-inline-item me-2 me-md-4">
-                <Link to="/register" className="text-decoration-none text-white">Members Portal</Link>
+                <Link to="/register" className="text-decoration-none text-dark"><b>Members Portal</b></Link>
               </li>
               <li className="list-inline-item">
                 <Link to="/login" className="text-decoration-none text-dark">
-                  <i className="fas fa-user me-1"></i> Login
+                 <b> <i className="fas fa-user me-1"></i>Login</b>
                 </Link>
               </li>
             </ul>
           </div>
-
-          {/* Sidebar Toggle Button (only on small screens) */}
           <div className="d-flex d-lg-none">
             <button
               className="btn btn-outline-light mx-2"
